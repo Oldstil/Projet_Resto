@@ -86,7 +86,7 @@ div.texte
 
 textarea
 {
-    width: 500px;
+    width: 50%;
     height: 200px;
     outline: none
 }
@@ -95,4 +95,24 @@ textarea:focus
 {
     border-color: yellow;
     box-shadow: 0 0 5px yellow
+}
+
+h6
+{
+    color: #999999
+}
+
+input:required:valid
+{
+    box-shadow: 0 0 5px green
+}
+
+input:valid, textarea:valid
+{
+    box-shadow: 0 0 5px green
+}
+
+input:invalid, textarea:invalid
+{
+    box-shadow: 0 0 5px red
 }

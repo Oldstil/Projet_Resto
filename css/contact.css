@@ -79,13 +79,37 @@ input
     text-align: center
 }
 
-input:focus
+input:hover
 {
-    border-color: yellow;
     box-shadow: 0 0 5px yellow
 }
 
 div.texte
 {
     margin: 10px
+}
+
+h6
+{
+    color: #999999
+}
+
+input:required:valid
+{
+    box-shadow: 0 0 5px green
+}
+
+input:required:invalid
+{
+    box-shadow: 0 0 5px red
+}
+
+input:valid
+{
+    box-shadow: 0 0 5px green;
+}
+
+input:invalid
+{
+    box-shadow: 0 0 5px red;
 }

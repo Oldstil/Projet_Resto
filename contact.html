@@ -36,34 +36,34 @@
 
         <h1>Nous Contacter</h1>
 
-            <form action="#" method="post" id="contact">
+            <form action="contact.php" method="post" id="contact">
 
                 <div class="texte">
-                    <label for="lastname">Votre Nom :</label><br>
-                    <input type="text" name="lastname" id="lastname" required placeholder="Nom">
+                    <label for="lastname">* Votre Nom :</label><br>
+                    <input type="text" name="lastname" id="lastname" required placeholder="Nom" minlength="2">
                 </div>
 
                 <div class="texte">
                     <label for="name">Votre Prénom :</label><br>
-                    <input type="text" name="name" id="name" placeholder="Prénom">
+                    <input type="text" name="name" id="name" placeholder="Prénom" minlength="2">
                 </div>
 
                 <div class="texte">
-                    <label for="mail">E-mail :</label><br>
-                    <input type="email" name="mail" id="mail" required placeholder="utilisateur@domaine.fr">
+                    <label for="mail">* E-mail :</label><br>
+                    <input type="email" name="mail" id="mail" required placeholder="utilisateur@domaine.fr"  minlength="1">
                 </div>
 
                 <div class="texte">
                     <label for="phone">Téléphone :</label><br>
-                    <input type="tel" name="phone" id="phone" placeholder="06.xx.xx.xx.xx">
+                    <input type="tel" name="phone" id="phone" placeholder="06xxxxxxxx" minlength="10" maxlength="12">
                 </div>
 
                 <div class="texte">
                     <label for="adress">Adresse Complète :</label><br>
-                    <input type="text" name="adress" id="adress">
+                    <input type="text" name="adress" id="adress" minlength="3">
                 </div>
 
-                <br>
+                <br/>
 
                 <div class="bouton">
                     <button type="submit">Valider</button>
@@ -73,13 +73,13 @@
                     <button type="reset">Tout Effacer</button>
                 </div>
 
+                <h6><i><u>Les champs marqués * sont obligatoires</u></i></h6>
+
             </form>
-        
-        <br>
 
         <h1>Adresse & Infos Utiles</h1>
 
-        <br>
+        <br/>
 
         <section id="adresse">
 
@@ -97,7 +97,7 @@
         
     </main>
 
-    <br/>
+    <br/><br/>
 
     <footer>
 
