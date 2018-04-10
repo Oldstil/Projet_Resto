@@ -116,3 +116,18 @@ input:invalid, textarea:invalid
 {
     box-shadow: 0 0 5px red
 }
+
+@media only screen and (max-width: 850px)
+{
+    li {padding: 20px 40px}
+}
+
+@media only screen and (max-width: 760px)
+{
+    li {padding: 20px 30px}
+}
+
+@media only screen and (max-width: 660px)
+{
+    li {padding: 20px 25px}
+}

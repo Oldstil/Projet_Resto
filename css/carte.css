@@ -57,3 +57,18 @@ section img
     border-radius: 10px;
     box-shadow: 0 0 5px white;
 }
+
+@media only screen and (max-width: 850px)
+{
+    li {padding: 20px 40px}
+}
+
+@media only screen and (max-width: 760px)
+{
+    li {padding: 20px 30px}
+}
+
+@media only screen and (max-width: 660px)
+{
+    li {padding: 20px 25px}
+}
