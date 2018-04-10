@@ -55,5 +55,5 @@ li
 section img
 {
     border-radius: 10px;
-    box-shadow: 4px 4px 5px #333333;
+    box-shadow: 0 0 5px white;
 }
