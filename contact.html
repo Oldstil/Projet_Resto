@@ -39,38 +39,43 @@
             <form action="contact.php" method="post" id="contact">
 
                 <div class="texte">
-                    <label for="lastname">* Votre Nom :</label><br>
-                    <input type="text" name="lastname" id="lastname" required placeholder="Nom" minlength="2">
+                    <label for="lastname" title="">* Votre Nom :</label><br>
+                    <input type="text" name="lastname" id="lastname" required placeholder="Nom" minlength="2" maxlength="15" title="Veuillez entrer votre nom">
+                    <span id="tooltip"></span>
                 </div>
 
                 <div class="texte">
                     <label for="name">Votre Prénom :</label><br>
-                    <input type="text" name="name" id="name" placeholder="Prénom" minlength="2">
+                    <input type="text" name="name" id="name" placeholder="Prénom" minlength="2" maxlength="15" title="Veuillez entrer votre prénom">
+                    <span id="tooltip"></span>                
                 </div>
 
                 <div class="texte">
                     <label for="mail">* E-mail :</label><br>
-                    <input type="email" name="mail" id="mail" required placeholder="utilisateur@domaine.fr"  minlength="1">
+                    <input type="email" name="mail" id="mail" required placeholder="utilisateur@domaine.fr"  minlength="5" title="Veuillez entrer votre adresse mail">
+                    <span id="tooltip"></span>                
                 </div>
 
                 <div class="texte">
                     <label for="phone">Téléphone :</label><br>
-                    <input type="tel" name="phone" id="phone" placeholder="06xxxxxxxx" minlength="10" maxlength="12">
+                    <input type="tel" name="phone" id="phone" placeholder="06xxxxxxxx" minlength="10" maxlength="12" title="Veuillez entrer votre numéro de téléphone">
+                    <span id="tooltip"></span>
                 </div>
 
                 <div class="texte">
                     <label for="adress">Adresse Complète :</label><br>
-                    <input type="text" name="adress" id="adress" minlength="3">
+                    <input type="text" name="adress" id="adress" minlength="3" title="Veuillez entrer votre adresse">
+                    <span id="tooltip"></span>
                 </div>
 
                 <br/>
 
                 <div class="bouton">
-                    <button type="submit">Valider</button>
+                    <button type="submit" id="bouton_envoi" title="Envoyer le formulaire">Valider</button>
                 </div>
 
                 <div class="bouton">
-                    <button type="reset">Tout Effacer</button>
+                    <button type="reset" title="Effacer le formulaire">Tout Effacer</button>
                 </div>
 
                 <h6><i><u>Les champs marqués * sont obligatoires</u></i></h6>

@@ -79,8 +79,9 @@ input
     text-align: center
 }
 
-input:hover
+input:focus
 {
+    border-color: yellow
     box-shadow: 0 0 5px yellow
 }
 
@@ -99,20 +100,20 @@ input:required:valid
     box-shadow: 0 0 5px green
 }
 
-input:required:invalid
-{
-    box-shadow: 0 0 5px red
-}
-
 input:valid
 {
     box-shadow: 0 0 5px green;
 }
 
+input:required:invalid
+{
+    box-shadow: 0 0 5px red
+}
+
 input:invalid
 {
     box-shadow: 0 0 5px red;
-}
+} 
 
 @media only screen and (max-width: 850px)
 {
