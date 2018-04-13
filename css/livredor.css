@@ -73,12 +73,6 @@ input
     text-align: center
 }
 
-input:focus
-{
-    border-color: yellow;
-    box-shadow: 0 0 5px yellow
-}
-
 div.texte
 {
     margin: 10px
@@ -89,12 +83,6 @@ textarea
     width: 50%;
     height: 200px;
     outline: none
-}
-
-textarea:focus
-{
-    border-color: yellow;
-    box-shadow: 0 0 5px yellow
 }
 
 h6

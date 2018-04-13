@@ -79,11 +79,6 @@ input
     text-align: center
 }
 
-input:focus
-{
-    border-color: yellow
-    box-shadow: 0 0 5px yellow
-}
 
 div.texte
 {
